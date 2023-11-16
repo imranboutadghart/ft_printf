@@ -6,7 +6,7 @@
 /*   By: iboutadg <iboutadg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 22:12:53 by iboutadg          #+#    #+#             */
-/*   Updated: 2023/11/08 13:45:52 by iboutadg         ###   ########.fr       */
+/*   Updated: 2023/11/16 22:17:10 by iboutadg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,6 +64,8 @@ static int	ft_ucount_digits(long n)
 {
 	int	count;
 
+	if (!n)
+		return (1);
 	count = 0;
 	while (n)
 	{
