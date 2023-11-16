@@ -25,6 +25,6 @@ test : $(NAME) $(TEST)
 clean :
 	rm -rf $(libft_obj) $(printf_obj)
 fclean : clean
-	rm $(NAME)
+	rm -rf $(NAME)
 re : fclean all
 .PHONY : all clean fclean re
