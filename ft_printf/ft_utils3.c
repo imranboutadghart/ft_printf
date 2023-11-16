@@ -6,7 +6,7 @@
 /*   By: iboutadg <iboutadg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 22:12:53 by iboutadg          #+#    #+#             */
-/*   Updated: 2023/11/16 21:49:22 by iboutadg         ###   ########.fr       */
+/*   Updated: 2023/11/16 23:08:36 by iboutadg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,4 +79,3 @@ void	*printf_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-	
