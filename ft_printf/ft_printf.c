@@ -6,7 +6,7 @@
 /*   By: iboutadg <iboutadg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/06 16:18:12 by iboutadg          #+#    #+#             */
-/*   Updated: 2023/11/17 01:41:30 by iboutadg         ###   ########.fr       */
+/*   Updated: 2023/11/17 22:15:51 by iboutadg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ static int	handle_all(const char *str, int i, va_list ap)
 	return (handle_special(str[i], ap));
 }
 
-size_t	ft_printf(const char *str, ...)
+int	ft_printf(const char *str, ...)
 {
 	size_t	i;
 	va_list	ap;
@@ -67,5 +67,6 @@ size_t	ft_printf(const char *str, ...)
 		}
 		i += handle_all(str, i + 1, ap);
 	}
+	va_end(ap);
 	return (incrementer(1));
 }

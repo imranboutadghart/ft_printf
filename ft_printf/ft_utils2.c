@@ -6,7 +6,7 @@
 /*   By: iboutadg <iboutadg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 22:12:53 by iboutadg          #+#    #+#             */
-/*   Updated: 2023/11/08 13:45:52 by iboutadg         ###   ########.fr       */
+/*   Updated: 2023/11/17 19:52:18 by iboutadg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,10 +81,10 @@ char	*printf_strdup(const char *str)
 	return (dst);
 }
 
-size_t	incrementer(int flush)
+int	incrementer(int flush)
 {
-	static size_t	i = 0;
-	size_t			tmp;
+	static int	i = 0;
+	int			tmp;
 
 	if (flush)
 	{

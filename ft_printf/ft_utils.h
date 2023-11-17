@@ -6,7 +6,7 @@
 /*   By: iboutadg <iboutadg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 22:51:08 by iboutadg          #+#    #+#             */
-/*   Updated: 2023/11/08 13:46:35 by iboutadg         ###   ########.fr       */
+/*   Updated: 2023/11/17 19:52:07 by iboutadg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int		handle_hex(char c, va_list ap);
 int		handle_ints(char c, va_list ap);
 int		handle_percent(void);
 int		handle_special(char c, va_list ap);
-size_t	incrementer(int flush);
+int		incrementer(int flush);
 void	printf_putchar(char c);
 void	printf_putstr(char *str);
 char	*ft_itox_base(unsigned long long nbr, const char *base);

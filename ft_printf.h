@@ -15,6 +15,6 @@
 # include "libft/libft.h"
 
 //the final product
-size_t	ft_printf(const char *str, ...);
+int	ft_printf(const char *str, ...);
 
 #endif //FT_PRINTF_H
