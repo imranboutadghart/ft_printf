@@ -6,7 +6,7 @@
 /*   By: iboutadg <iboutadg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/06 16:18:12 by iboutadg          #+#    #+#             */
-/*   Updated: 2023/11/17 01:41:30 by iboutadg         ###   ########.fr       */
+/*   Updated: 2023/11/18 20:40:47 by iboutadg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,5 +67,6 @@ size_t	ft_printf(const char *str, ...)
 		}
 		i += handle_all(str, i + 1, ap);
 	}
+	va_end(ap);
 	return (incrementer(1));
 }
