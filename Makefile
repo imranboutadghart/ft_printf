@@ -9,8 +9,8 @@ libft_obj=	libft/ft_atoi.o libft/ft_bzero.o libft/ft_calloc.o libft/ft_isalnum.o
 			libft/ft_strmapi.o libft/ft_strncmp.o libft/ft_strnstr.o libft/ft_strrchr.o libft/ft_strtrim.o libft/ft_substr.o libft/ft_tolower.o\
 			libft/ft_toupper.o libft/ft_lstadd_back_bonus.o libft/ft_lstadd_front_bonus.o libft/ft_lstclear_bonus.o\
 			libft/ft_lstdelone_bonus.o libft/ft_lstiter_bonus.o libft/ft_lstlast_bonus.o libft/ft_lstmap_bonus.o libft/ft_lstnew_bonus.o libft/ft_lstsize_bonus.o
-printf_obj :=	ft_printf/ft_handlers.o  ft_printf/ft_printf.o  ft_printf/ft_utils1.o  ft_printf/ft_utils2.o  ft_printf/ft_utils3.o
-TEST := test.c
+printf_obj =	ft_printf/ft_handlers.o  ft_printf/ft_printf.o  ft_printf/ft_utils1.o  ft_printf/ft_utils2.o  ft_printf/ft_utils3.o
+TEST = test.c
 
 all : $(NAME)
 
